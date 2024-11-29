@@ -71,7 +71,7 @@ internal object TwiFucker {
             ?.optJSONObject("tweet")
             ?.has("promotedMetadata") == true || optJSONObject("content")?.optJSONObject("content")
             ?.has("tweetPromotedMetadata") == true || optJSONObject("item")?.optJSONObject("content")
-            ?.has("tweetPromotedMetadata") == true
+            ?.has("tweetPromotedMetadata") == true || optJSONObject("content")?.optJSONObject("content")?.optString("__typename")?.startsWith("TimelineRtbImageAd") == true
 
     private fun JSONObject.entryGetContentItems(): JSONArray? =
         optJSONObject("content")?.optJSONArray("items")
