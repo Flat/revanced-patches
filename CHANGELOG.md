@@ -1,3 +1,11 @@
+## [5.2.1](https://github.com/Flat/revanced-patches/compare/v5.2.0...v5.2.1) (2024-12-01)
+
+
+### Bug Fixes
+
+* **ci:** update url for publishing ([50261a3](https://github.com/Flat/revanced-patches/commit/50261a3e502684b3c704d0632deaf3f46e3618b3))
+* **twitter:** doubleclick ads ([f000570](https://github.com/Flat/revanced-patches/commit/f0005704e1989f70f724e48cd7618d18ca516e11))
+
 # [5.2.0](https://github.com/ReVanced/revanced-patches/compare/v5.1.0...v5.2.0) (2024-11-27)
 
 
